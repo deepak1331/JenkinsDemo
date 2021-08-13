@@ -16,7 +16,9 @@ public class MyUtilTest {
 	@Test
 	void testIsPrime() {
 		assertTrue(MyUtil.isPrime(13));
+		assertFalse(MyUtil.isPrime(15));
 		assertFalse(MyUtil.isPrime(10));
+		assertTrue(MyUtil.isPrime(23));
 	}
 
 }
